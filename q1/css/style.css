@@ -1,0 +1,135 @@
+@charset "utf-8";
+
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+h1 {
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+}
+
+h3 {
+  text-align: center;
+}
+
+/* text-alignを使って左右中央寄せ */
+.blue--box {
+  background-color: #afdfe4;
+  width: 200px;
+  margin: 0 auto 20px;
+  padding: 20px;
+}
+
+.inline--box {
+  background-color: #fff;
+  width: 200px;
+  display: inline-block;
+  padding: 20px 0;
+}
+
+.align--box {
+  text-align: center;
+}
+
+.align--text {
+  background-color: #a4b3e9;
+  padding: 0 10px;
+  display: inline-block;
+  font-size: 16px;
+  padding: 10px;
+}
+
+/* marginを使って左右中央寄せ */
+.blue--box {
+  background-color: #afdfe4;
+  width: 200px;
+  margin: 0 auto 20px;
+  padding: 20px;
+}
+
+.inline--box {
+  background-color: #fff;
+  width: 200px;
+  display: inline-block;
+  padding: 20px 0;
+}
+
+.text--align {
+  text-align: center;
+}
+
+.margin--text {
+  background-color: #a4b3e9;
+  width: 90px;
+  display: inline-block;
+  font-size: 16px;
+  padding: 10px;
+}
+
+/* tableを使って上下左右中央寄せ */
+.q1--perimeter{
+  display: table;
+}
+
+.table {
+  text-align: center;
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.table--text {
+  background-color: #fff;
+  padding: 10px;
+  display: inline-block;
+}
+
+/* flexを使って上下左右中央寄せ */
+.q1--perimeter{
+  display: table;
+}
+
+.flex {
+  text-align: center;
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.flex--text {
+  background-color: #fff;
+  padding: 10px;
+  display: inline-block;
+}
+
+/* positionを使って上下左右中央寄せ */
+.q1--position {
+  width: 250px;
+  margin: 0 auto;
+  padding: 20px 20px;
+}
+
+.container {
+  width: 250px;
+  height: 150px;
+  background-color: #fff;
+  position: relative;
+}
+
+.position {
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  transform: translateY(-50%) translateX(-50%);
+}
+
+.position--text {
+  background-color: #a4b3e9;
+  padding: 10px;
+  display: inline-block;
+  font-size: 16px;
+}

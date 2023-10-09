@@ -1,0 +1,96 @@
+@charset "UTF-8";
+
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+h1 {
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+}
+
+h3 {
+  text-align: center;
+}
+
+.flex {
+  width: 1200px;
+  display: flex;
+  margin: 50px;
+  text-align: center;
+}
+
+.main {
+  width: 300px;
+  background: #ff7b7b;
+}
+
+.sub {
+  width: 600px;
+  background: #7b86ff;
+}
+
+.end {
+  width: 300px;
+  background: #fff27b;
+}
+
+.main {
+  padding: 20px;
+}
+
+.sub{
+  padding: 20px;
+}
+
+.end{
+  padding: 20px;
+}
+
+.flex {
+  width: 1200px;
+  display: flex;
+  margin: 50px;
+  text-align: center;
+}
+
+.one {
+  width: 200px;
+  background: #7bff91;
+}
+
+.two {
+  width: 400px;
+  background: #ff7be2;
+}
+
+.three {
+  width: 400px;
+  background: #ffc67b;
+}
+
+.four {
+  width: 200px;
+  background: #7bf2ff;
+}
+
+.one {
+  padding: 20px;
+}
+
+.two{
+  padding: 20px;
+}
+
+.three{
+  padding: 20px;
+}
+
+.four{
+  padding: 20px;
+}

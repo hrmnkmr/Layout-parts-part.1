@@ -1,0 +1,54 @@
+@charset "UTF-8";
+
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+h1 {
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+}
+
+h3 {
+  text-align: center;
+}
+
+.cell--table {
+  table-layout: fixed;
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th {
+  background-color: #319c4a;
+  font-size: 18px;
+  line-height: 26px;
+}
+
+thead,th,td {
+  border: 1px solid #000000;
+  padding: 10px;
+  text-align: center;
+}
+
+td {
+  font-size: 18px;
+  line-height: 22px;
+}
+
+tr {
+  background: #d5ffc7;
+}
+
+tr:nth-child(2n+1) {
+  background: #bcbcbc;
+}
+
+tr:last-child {
+  border-top: 1px double rgb(255, 255, 255);
+}
