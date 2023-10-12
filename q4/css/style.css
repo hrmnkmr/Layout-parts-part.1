@@ -19,9 +19,14 @@ h3 {
 }
 
 .flex {
-  width: 1200px;
-  display: flex;
-  margin: 50px;
+  display: table;
+  width: 100%;
+  margin-top: 50px;
+}
+
+.box {
+  display: table-cell;
+  padding: 20px;
   text-align: center;
 }
 
@@ -38,25 +43,6 @@ h3 {
 .end {
   width: 300px;
   background: #fff27b;
-}
-
-.main {
-  padding: 20px;
-}
-
-.sub{
-  padding: 20px;
-}
-
-.end{
-  padding: 20px;
-}
-
-.flex {
-  width: 1200px;
-  display: flex;
-  margin: 50px;
-  text-align: center;
 }
 
 .one {
@@ -77,20 +63,4 @@ h3 {
 .four {
   width: 200px;
   background: #7bf2ff;
-}
-
-.one {
-  padding: 20px;
-}
-
-.two{
-  padding: 20px;
-}
-
-.three{
-  padding: 20px;
-}
-
-.four{
-  padding: 20px;
 }
