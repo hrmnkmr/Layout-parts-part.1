@@ -91,13 +91,9 @@ h3 {
 
 /* flexを使って上下左右中央寄せ */
 .q1--perimeter{
-  display: table;
-}
-
-.flex {
-  text-align: center;
-  display: table-cell;
-  vertical-align: middle;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .flex--text {
