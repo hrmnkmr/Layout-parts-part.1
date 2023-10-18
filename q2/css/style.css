@@ -29,7 +29,10 @@ h3 {
 	width: 200px;
 	background-color: #d2b48c;
   list-style: none;
-  margin-right:  60px;
   padding: 10px;
   border-radius: 13px;
+}
+
+.card-list:not(:last-child){
+margin-right: 60px;
 }

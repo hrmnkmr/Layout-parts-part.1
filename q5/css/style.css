@@ -227,8 +227,8 @@ h3 {
 
 .container15{
   display: grid;
-  grid-template-rows: 200px 200px 200px;
-  grid-template-columns: 2fr 2fr 2fr;
+  grid-template-rows: 200px 200px;
+  grid-template-columns: 1fr 1fr 1fr;
   margin: 10px;
 }
 
